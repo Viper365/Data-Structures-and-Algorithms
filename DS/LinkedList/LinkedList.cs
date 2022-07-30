@@ -212,8 +212,6 @@ namespace DS
             }
         }
 
-
-
         public void RemoveDuplicateFromUnSortedLinkedList(Node head)
         {
             Node pre = head;
