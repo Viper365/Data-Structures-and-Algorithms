@@ -6,6 +6,11 @@ namespace DS
 {
     internal class Program
     {
+
+        static void Seperator()
+        {
+            Console.WriteLine("==================================================");
+        }
         static void Main(string[] args)
         {
             //LinkedList ll = new LinkedList();
@@ -53,11 +58,13 @@ namespace DS
 
 
             int[] arr = new int[] { 4, 10, 5, 8, 20, 15, 3, 12 };
-            a.PrintNearestSmallestOnLeft(arr);
-
+            //a.PrintNearestSmallestOnLeft(arr);
+            //Seperator();
             StackQ s = new StackQ();
 
-            s.PrintNearestSmallestOnLeft(arr);
+            //s.PrintNearestSmallestOnLeft(arr);
+            //Seperator();
+            s.PrintNearestSmallestOnRight(arr);
 
             Console.Read();
         }

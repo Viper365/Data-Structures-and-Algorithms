@@ -57,5 +57,32 @@ namespace DS.Stack
                 vs.Push(a[i]);
             }
         }
+
+        public void PrintNearestSmallestOnRight(int[] a)
+        {
+            Stack<int> vs = new Stack<int>();
+            int n = a.Length - 1;
+
+            for (int i = n; i >= 0; i--)
+            {
+                while (vs.Count != 0)
+                {
+                    if (vs.Peek() < a[i])
+                    {
+                        Console.WriteLine("Nearest smallest of {0} on left is {1}", a[i], vs.Peek());
+                        break;
+                    }
+                    else
+                    {
+                        vs.Pop();
+                    }
+                }
+                if (vs.Count == 0)
+                {
+                    Console.WriteLine("Nearest smallest of {0} on left is {1}", a[i], -1);
+                }
+                vs.Push(a[i]);
+            }
+        }
     }
 }
