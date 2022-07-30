@@ -6,30 +6,39 @@ namespace DS
     {
         static void Main(string[] args)
         {
-            
-            string s = "saketchoubey";
-            int[] arr = new int[26];
+            LinkedList ll = new LinkedList();
+            ll.Head = new Node(10);
+            ll.InsertNodeAtEnd(11);
+            ll.InsertNodeAtEnd(12);
+            ll.InsertNodeAtEnd(13);
+            ll.InsertNodeAtEnd(14);
+            ll.InsertNodeAtEnd(15);
+            ll.InsertNodeAtEnd(16);
+            ll.InsertNodeAtEnd(17);
+            ll.InsertNodeAtEnd(18);
 
-            for (int i = 0; i < s.Length; i++)
+            Node c = ll.Head;
+
+            while (c.Next != null)
             {
-                int ansii = (int)s[i];
-                arr[ansii - 97] = arr[ansii - 97] + 1;
+                c = c.Next;
             }
 
-            foreach(int i in arr)
-            {
-                Console.WriteLine(i);
-            }
+            c.Next = ll.Head;
 
-            for (int i = 0; i < s.Length; i++)
-            {
-                int position = (int)s[i] - 97;
-                if (arr[position] == 1)
-                {
-                    Console.WriteLine("{0} is the first non repeating char", s[i]);
-                    break;
-                }
-            }
+            //ll.PrintList();
+
+            Node slow;
+
+            Console.WriteLine("LinkedList : {0}", ll.FindIfLinkedListIsCircular(ll.Head, out slow));
+
+            Console.WriteLine("Meeting point is : {0}", slow.Data);
+
+            //Node node = ll.FindMidpoint(ll.Head);
+
+            //Console.WriteLine(node.Data);
+
+
             Console.Read();
         }
     }
