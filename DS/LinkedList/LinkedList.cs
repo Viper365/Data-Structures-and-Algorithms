@@ -131,7 +131,6 @@ namespace DS
             if (head == null)
                 return head;
 
-
             Node fastPointer = head;
             Node slowPointer = head;
 
@@ -140,48 +139,55 @@ namespace DS
                 slowPointer = slowPointer.Next;
                 fastPointer = fastPointer.Next.Next;
             }
-
             return slowPointer;
         }
 
         public bool FindIfLinkedListIsCircular(Node head, out Node slow)
         {
-
             if (head.Next == null)
             {
                 slow = null;
                 return false;
             }
 
-
             Node sNode = head;
             Node fNode = head;
+            Node prev = null;
 
             while (fNode.Next != null)
             {
+                prev = sNode;
                 sNode = sNode.Next;
                 fNode = fNode.Next.Next;
 
                 if (fNode.Data == sNode.Data)
                 {
-                    slow = sNode;
+                    slow = prev;
                     return true;
                     
                 }
             }
-
             slow = null;
             return false;
         }
 
-
-
         public void RemoveCircle(Node head)
         {
-            
+            Node node;
+            Node current = head;
+            if (FindIfLinkedListIsCircular(head, out node))
+            {
+                Node prev = node;
+                node = node.Next;
+                while (current.Data != node.Data)
+                {
+                    prev = node;
+                    current = current.Next;
+                    node = node.Next;
+                }
+
+                prev.Next = null;
+            }
         }
-        
-
-
     }
 }

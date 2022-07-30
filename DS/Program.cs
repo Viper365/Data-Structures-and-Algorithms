@@ -34,6 +34,13 @@ namespace DS
 
             Console.WriteLine("Meeting point is : {0}", slow.Data);
 
+            Console.WriteLine("Removing circle");
+
+            ll.RemoveCircle(ll.Head);
+
+            ll.PrintList();
+
+
             //Node node = ll.FindMidpoint(ll.Head);
 
             //Console.WriteLine(node.Data);
