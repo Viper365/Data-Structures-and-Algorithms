@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DS.Array;
+using DS.Stack;
+using System;
 
 namespace DS
 {
@@ -6,16 +8,16 @@ namespace DS
     {
         static void Main(string[] args)
         {
-            LinkedList ll = new LinkedList();
-            ll.Head = new Node(10);
-            ll.InsertNodeAtEnd(10);
-            ll.InsertNodeAtEnd(16);
-            ll.InsertNodeAtEnd(13);
-            ll.InsertNodeAtEnd(1);
-            ll.InsertNodeAtEnd(16);
-            ll.InsertNodeAtEnd(1);
-            ll.InsertNodeAtEnd(17);
-            ll.InsertNodeAtEnd(11);
+            //LinkedList ll = new LinkedList();
+            //ll.Head = new Node(10);
+            //ll.InsertNodeAtEnd(10);
+            //ll.InsertNodeAtEnd(16);
+            //ll.InsertNodeAtEnd(13);
+            //ll.InsertNodeAtEnd(1);
+            //ll.InsertNodeAtEnd(16);
+            //ll.InsertNodeAtEnd(1);
+            //ll.InsertNodeAtEnd(17);
+            //ll.InsertNodeAtEnd(11);
 
             //Node c = ll.Head;
 
@@ -37,16 +39,25 @@ namespace DS
             //Console.WriteLine("Removing circle");
 
             //ll.RemoveCircle(ll.Head);
-            ll.PrintList();
+            //ll.PrintList();
 
-            Node n = ll.FindNthNodeFromEnd(ll.Head, 4);
-            Console.WriteLine("nth node is {0}", n.Data);
+            //Node n = ll.FindNthNodeFromEnd(ll.Head, 4);
+            //Console.WriteLine("nth node is {0}", n.Data);
 
             
             //Node node = ll.FindMidpoint(ll.Head);
 
             //Console.WriteLine(node.Data);
 
+            QArray a = new QArray();
+
+
+            int[] arr = new int[] { 4, 10, 5, 8, 20, 15, 3, 12 };
+            a.PrintNearestSmallestOnLeft(arr);
+
+            StackQ s = new StackQ();
+
+            s.PrintNearestSmallestOnLeft(arr);
 
             Console.Read();
         }
