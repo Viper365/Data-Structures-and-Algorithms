@@ -37,12 +37,12 @@ namespace DS
             //Console.WriteLine("Removing circle");
 
             //ll.RemoveCircle(ll.Head);
-
-            ll.RemoveDuplicateFromUnSortedLinkedList(ll.Head);
-
             ll.PrintList();
 
+            Node n = ll.FindNthNodeFromEnd(ll.Head, 4);
+            Console.WriteLine("nth node is {0}", n.Data);
 
+            
             //Node node = ll.FindMidpoint(ll.Head);
 
             //Console.WriteLine(node.Data);

@@ -235,5 +235,30 @@ namespace DS
                 }
             }
         }
+
+        public Node FindNthNodeFromEnd(Node head, int k)
+        {
+            int count = 0;
+            Node cur = head;
+            while (cur != null)
+            {
+                count++;
+                cur = cur.Next;
+            }
+
+            int nth = count - k;
+            if (nth < 0)
+                return null;
+
+
+            cur = head;
+            while (nth != 0)
+            {
+                cur = cur.Next;
+                nth--;
+            }
+
+            return cur;
+        }
     }
 }
