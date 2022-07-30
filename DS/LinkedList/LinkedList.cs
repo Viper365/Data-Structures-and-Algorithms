@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
@@ -103,9 +104,10 @@ namespace DS
             var current = Head;
             while (current != null)
             {
-                Console.WriteLine(current.Data + " -> ");
+                Console.Write(current.Data + " -> ");
                 current = current.Next;
             }
+            Console.WriteLine(" null");
         }
 
         public void ReverseList()
@@ -187,6 +189,52 @@ namespace DS
                 }
 
                 prev.Next = null;
+            }
+        }
+
+
+        public void RemoveDuplicateFromSortedLinkedList(Node head)
+        {
+            Node pre = head;
+            Node cur = head.Next;
+            while (cur != null)
+            {
+                if (pre.Data == cur.Data)
+                {
+                    pre.Next = cur.Next;
+                    cur = cur.Next;
+                }
+                else
+                {
+                    pre = pre.Next;
+                    cur = cur.Next;
+                }
+            }
+        }
+
+
+
+        public void RemoveDuplicateFromUnSortedLinkedList(Node head)
+        {
+            Node pre = head;
+
+            Dictionary<int, int> keyValues = new Dictionary<int, int>();
+            keyValues.Add(pre.Data, 0);
+
+            Node cur = head.Next;
+            while (cur != null)
+            {
+                if (keyValues.ContainsKey(cur.Data))
+                {
+                    pre.Next = cur.Next;
+                    cur = cur.Next;
+                }
+                else
+                {
+                    pre = pre.Next;
+                    cur = cur.Next;
+                    keyValues.Add(pre.Data, 0);
+                }
             }
         }
     }
