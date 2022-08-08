@@ -1,0 +1,98 @@
+﻿Time Complexity & Big O notation | Analysis and Calculation | Java C++  ✅DSAOne Course #1
+Bit Manipulation Algorithms Part 1 | Interview Questions Java C++ |  ✅| DSAOne Course #2
+Bit Masking - Important Bit Manipulation Algorithms Part 2 | Java C++ | ✅DSAOne Course #3
+XOR Problems in Bit Manipulation | Advanced Bit Manipulation Techniques✅ Java C++ | DSAOne Course #4
+Mathematics & Number Theory Algorithms | Part - 1 | DSA-One Course
+Euclid GCD, Prime Numbers & Sieve of Eratosthenes | Mathematics Part - 2 | DSA-One Course #6
+Modulo Arithmetics | Compute answer modulo 1000000007 | Mathematics Part 3 | DSA-One Course #7
+Recursion in 3 steps | Recursion Algorithms Basics - Part 1 | DSA-One Course #8
+Josephus Problem, Matrix Paths | Recursive Solution Java and C++ |  ✅| DSA-One Course #9
+Permutations of a String | Recursion Algorithms on Strings | Power Set of String ✅ DSAOne Course #10
+Backtracking | N-Queen Problem & Sudoku Solver | Java and C++ |  ✅| DSAOne Course #11
+Majority Elements in an Array | Moore's Voting Algorithm | Java C++ |  ✅DSAOne Course #12
+Kadane's Algorithm | Largest Sum Contiguous Subarray | Java and C++ |  ✅DSAOne Course #13
+Best time to buy and sell stock to Maximise Profit Leetcode - 121 | Java and C++ | DSAOne Course #14
+Best time to Buy and Sell Stock ii || Leetcode - 122 | Stock Buy and Sell || DSA-One Course #15
+Trapping Rainwater Problem | Leetcode | Rain water trapping problem | DSA-One Course #16
+Bubble Sort Algorithm | C++ / Java | Complete explanation for Beginners and Code | DSAOne Course 
+Insertion Sort Algorithm | C++ / Java Complete explanation for Beginners and Code | DSAOne Course 18
+Selection Sort Algorithm | C++ / Java Complete explanation for Beginners and Code | DSAOne Course 19
+Quick Sort Algorithm | C++ / Java complete explanation for Beginners and Code | DSA-One Course #20
+Merge Sort Algorithm | C++ / Java Complete explanation for Beginners and Code | DSA-One Course #21
+Binary Search in C++ and Java | Recursively and Iteratively | DSA-One Course #22 | 
+Search an element in an Infinite Sorted array | Binary Search, Part 2 | DSA-One Course #23
+Search an element in a Sorted & Rotated Array | Binary Search, Part 3 | DSA-One Course #24
+Books Allocation - Google Interview Question | Binary Search, Part 4 | DSA-One Course #25
+Introduction to Hashing | HashSet in Java & unordered_set in C++ | DSA-One Course #26
+Hashing Challenge | Count Distinct Elements | Union & Intersection of Two Arrays| DSA-One Course #27
+Find Subarray with the given sum k 🔥| Hashmap in Java | DSA-One Course #28
+Count Distinct Elements in every Window of size k | HashMap Interview Problems | DSA-One Course #29
+Hashmap in Java | Internal Working of Hashmap in Java | Hashmap Implementation | DSA-One Course #30
+Heap Data Structure | MaxHeap Insertion and Deletion | DSA-One Course #31
+HeapSort | Heapify method to build a MaxHeap in O(n) | DSA-One Course #32
+Find Kth Largest/Smallest Element in an Array | PriorityQueue in Java & C++ | DSA-One Course #33
+Connect N Ropes with minimum cost | Amazon Interview Question | PriorityQueue | DSA-One Course #34
+Heap - Find Median of Running stream of Integers | Google Interview Question | DSA-One Course #35
+Linked List Data Structure | Insert, Traverse and Delete Nodes in a Linked List | DSA-One Course #36
+Reverse a Linked List | Iteratively & Recursively | DSA-One Course #37
+Palindrome Linked List & Find the middle of a Given Linked List | DSA-One Course #38
+Detect & Remove Cycle in a Linked List | Floyd's Cycle Detection Algorithm | DSA-One Course #39
+Clone a Linked List with Next and Random Pointer | Important Interview Question | DSA-One Course #40
+Stack Data Structure | Stack using Arrays & LinkedList | Stack in C++ & Java | DSA-One Course #41
+Nearest Smaller Element on Left & Right side of an Array | Stack | DSA-One Course #42
+Parenthesis Checker | Valid Parentheses Leetcode | Balanced Parentheses Hackerrank | DSAOne #43
+Largest Rectangular in Histogram | Maximum Rectangular Area in a Histogram | DSA-One Course #44
+Max rectangle | Maximal Rectangle | Maximum Size Rectangle in Binary Matrix | DSA-One Course #45
+Infix to Postfix Conversion Using Stack | Infix Postfix and Prefix Expressions | DSA-One Course #46
+Infix to Postfix Conversion Using Stack | Postfix Evaluation using Stack | DSA-One Course #47
+Queue Data Structure | Queue in Java | Implement Queue using LinkedList | DSA-One Course #48
+Circular Queue Implementation using Array | Queue in Data Structure | DSA-One Course #49
+Queue in Java and C++ | Queue Data Structure | Queue Implementation Java | DSA-One Course #50
+Implement Queue using two Stack & Implement Stack using two Queue | DSA-One Course #51
+Flattening a Linked List | Flatten a Multilevel Doubly Linked List | DSA-One Course #52
+Deque in Data Structure | Double ended queue Data Structure | Stack & Queue using Deque | DSAOne #53
+Sliding Window Maximum | Sliding Window Algorithm | Deque Data Structure | DSA-One Course #54
+Binary Tree Data Structure | Implementation of a Binary Tree | Java C++ | DSA-One Course #55
+Binary Tree Traversals 🔥 | InOrder, PreOrder and PostOrder Traversals | DSA-One Course #56
+Height of Binary Tree | Height of a Binary Tree | Binary Tree Data Structure | DSA-One Course #57
+Size of a Binary Tree & Max/Min in a Binary Tree | Binary Tree Data Structure | DSA-One Course #58
+Level Order Traversal Binary Tree | Binary Tree Level Order Traversal | DSAOne Course #59
+Left view of Binary Tree | Right view of Binary Tree | Left view of Tree | DSA-One Course #60
+Top view of Binary Tree | Bottom view of Binary Tree | Binary Tree Data Structures Java | DSAOne #61
+Binary Tree to DLL | Flatten Binary Tree to Doubly Linked List | DSA-One Course #62
+Diameter of a Binary Tree | Diameter of a Tree | Maximum width of Binary Tree | DSA-One Course #63
+Lowest Common Ancestor in a Binary Tree | LCA of a Binary Tree | DSA-One Course #64
+Burn a Tree | Minimum Time To Burn A Binary Tree Starting From The Leaf Node | DSA-One Course #65
+Binary Search Tree Data Structure | BST Introduction | Searching, Implementation | DSAOne Course #66
+Insertion in Binary Search Tree | Insertion in BST | Iteratively & Recursively | DSA-One Course #67
+Delete a Node in BST | Deletion in BST | Delete a Node in Binary Search Tree | DSA-One Course #68
+Check for BST | Validate Binary Search Tree | Validate BST | Check BST | DSA-One Course #69
+Find the Floor & Ceil Value in a BST | Ceil in BST | Floor in BST | Binary search tree | DSAOne #70
+Two Sum in BST | Pair Sum in BST | Two sum Problem in Binary Search Tree | DSA-One Course #71
+Vertical Order Traversal of Binary Tree | Vertical Traversal of a Binary Tree | DSA-One Course #72
+AVL Tree in Data Structure | AVL Tree Insertion , Implementation, Rotation | Java C++ Code } | #73
+Graph Data Structure | Adjacency Matrix and Adjacency List Graph | Graph DSA Java C++ | DSAOne #74
+BFS Algorithm | Breadth First Search in Graph | BFS Traversal | BFS Graph | DSA-One Course #75
+DFS Algorithm | Depth First Search Traversal in Graph | DFS Graph | DSA-One Course #76
+Detect Cycle in Undirected Graph | Using DFS | Cycle detection in Graph | DSA-One Course #77
+Detect cycle in a Directed Graph | Using DFS | Graph Data Structure | DSA-One Course #78
+Topological Sort using DFS | Graph Data Structure | Topological Sort Algorithm | DSAOne #79
+Kahn's Algorithm | Topological Sort using BFS | Graph Data Structure | Kahn Algorithm | DSAOne #80
+Prim's Algorithm | Minimum Spanning Tree | Graph Data Structure | Java C++ Code | DSAOne #81
+Dijkstra's Algorithm | Single Source Shortest Path Algorithm in Graph | Dijkstra algorithm Java #82
+Bellman Ford Algorithm | Negative Weight Cycle Detection | Shortest Path | DSA-One Course #83
+Union Find Algorithm | Disjoint Set | Union By Rank & Path Compression | DSA-One Course #84
+Kruskal's Algorithm to find Minimum Spanning Tree in a Graph | DSA-One Course #85
+Dynamic Programming 🔥| Coin Change Problem Leetcode | C++ | Java | DSA-One Course #86
+0/1 Knapsack Problem using Dynamic Programming | DSA-One Course #87
+Longest Common Subsequence (LCS) using Dynamic Programming (DP) DSA-One Course #88
+Longest Common Subsequence LCS using Tabulation Method | Dynamic Programming | DSA-One Course #89
+5 Problems on Variations of Longest Common Subsequence | DP | Java DSA Placement Course #90
+Minimum Edit Distance Problem | DP | Dynamic Programming | DSA-One Course #91
+Rod Cutting Problem | Easy Explanation & Code | Dynamic Programming | DSA-One Course #92
+Maximum Sum SubMatrix | Extended Kadane's Algorithm | Dynamic Programming | DSA-One Course #93
+Matrix Chain Multiplication Problem | DP Dynamic Programming | DSA-One Course #94
+Palindromic Partitioning Problem (Minimum cuts required to make Palindromes) DP | DSA-One Course #95
+Activity Selection Problem using Greedy Algorithm | Maximum Disjoint Intervals | DSA-One Course #96
+Wine Buying and Selling Problem | Greedy Algorithm | DSA-One Course #97
+Minimum Platforms | Greedy Algorithm | DSA-One Course #98
