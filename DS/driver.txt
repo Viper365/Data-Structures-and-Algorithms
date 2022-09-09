@@ -63,3 +63,16 @@
             //s.BalancedParenthesis(s3);
             //s.BalancedParenthesis(s4);
             //s.BalancedParenthesis(s5);
+
+             //var root = new BTNode(10);
+            //root.left = new BTNode(11);
+            //root.left.left = new BTNode(7);
+            //root.left.right = new BTNode(12);
+            //root.right = new BTNode(9);
+            //root.right.left = new BTNode(15);
+            //root.right.right = new BTNode(8);
+            ////BTLevelOrderTraversal(root, 3);
+            ////BTLevelOrderTraversalUsingQueue(root);
+
+            //ZigZagTraversal(root);
+            //Console.WriteLine("Height of the BT is {0}", HeighOfBT(root));

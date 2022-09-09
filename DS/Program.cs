@@ -8,45 +8,67 @@ namespace DS
 {
     internal class Program
     {
-
         static void Seperator()
         {
             Console.WriteLine("==================================================");
         }
         static void Main(string[] args)
         {
+            //[2,4,9]
+            //[5,6,4,9]
+            //LinkedList ll = new LinkedList();
+            //ll.Head = new Node(1);
+            //ll.InsertNodeAtEnd(2);
+            //ll.InsertNodeAtEnd(2);
+            //ll.InsertNodeAtEnd(1);
+            //ll.PrintList(ll.Head);
+            //Console.WriteLine(ll.IsPalindrome(ll.Head));
 
-            //var root = new BTNode(10);
-            //root.left = new BTNode(11);
-            //root.left.left = new BTNode(7);
-            //root.left.right = new BTNode(12);
-            //root.right = new BTNode(9);
-            //root.right.left = new BTNode(15);
-            //root.right.right = new BTNode(8);
-            ////BTLevelOrderTraversal(root, 3);
-            ////BTLevelOrderTraversalUsingQueue(root);
+            //string[] str = new string[] { "flower", "flow", "flight" };
+            //Console.WriteLine("Longest prefix is {0}",StringDS.LongestCommonPrefix(str));
 
-            //ZigZagTraversal(root);
-            //Console.WriteLine("Height of the BT is {0}", HeighOfBT(root));
+            //int[] str =  { -1, 0, 1, 2, -1, -4 };
+            //QArray q = new QArray();
+            //q.ThreeSum(str);
 
-
-            PowerSet("abc", 0, " ");
-            String str = "abc";
-            int index = 0;
-            String curr = "";
-            powerSet(str, index, curr);
+            //            8
+            //[4, 1, 8, 4, 5]
+            //[5, 6, 1, 8, 4, 5]
+            //2
+            //3
 
 
+            //LinkedList ll = new LinkedList();
+            //ll.Head = new Node(4);
+            //ll.InsertNodeAtEnd(1);
+            //ll.InsertNodeAtEnd(8);
+            //ll.InsertNodeAtEnd(4);
+            //ll.InsertNodeAtEnd(5);
+            //ll.PrintList(ll.Head);
 
+            //LinkedList ll1 = new LinkedList();
+            //ll1.Head = new Node(5);
+            //ll1.InsertNodeAtEnd(6);
+            //ll1.InsertNodeAtEnd(1);
+            //ll1.InsertNodeAtEnd(8);
+            //ll1.InsertNodeAtEnd(4);
+            //ll1.InsertNodeAtEnd(5);
 
+            //ll.PrintList(ll1.Head);
 
+            //Node n = ll.GetIntersectionNode1(ll.Head, ll1.Head);
+            //Console.WriteLine("Intersection on {0}", n.Data); ;
+
+            int[] arr = { 0,2,1,2,0 };
+
+            int[] res = QArray.sort012(arr, arr.Length);
+
+            Console.WriteLine(String.Join(' ', res));
             Console.Read();
         }
 
         static void PowerSet(string s, int index, string output)
         {
- 
-            
             //Base Condition 
             if (index == s.Length)
             {
@@ -57,9 +79,7 @@ namespace DS
             PowerSet(s, index + 1, output);
         }
 
-        static void powerSet(String str, int index,
-                String curr)
-
+        static void powerSet(String str, int index, String curr)
         {
             int n = str.Length;
 
@@ -80,37 +100,21 @@ namespace DS
             powerSet(str, index + 1, curr);
         }
 
-
-
-
         static void PrintLeftViewOfBinaryTree(BTNode root)
         {
-
             Queue<int> list = new Queue<int>();
-
-
-
         }
-
-
         static void ZigZagTraversal(BTNode node)
         {
             if (node == null) return;
-
             Queue<BTNode> list = new Queue<BTNode>();
-
             list.Enqueue(node);
-
             Dictionary<int, List<int>> keyValuePairs = new Dictionary<int, List<int>>();
-
 
             while (list.Count != 0)
             {
                 BTNode bTNode = list.Dequeue();
                 Console.WriteLine(bTNode.data);
-
-
-
                 if (bTNode.left != null) list.Enqueue(bTNode.left);
                 if (bTNode.right != null) list.Enqueue(bTNode.right);
             }
@@ -126,15 +130,12 @@ namespace DS
                 BTNode item = list.Dequeue();
                 Console.WriteLine(item.data);
 
-
                 if (item.right != null)
                     list.Enqueue(item.right);
                 if (item.left != null)
                     list.Enqueue(item.left);
             }
         }
-
-
 
         static int HeighOfBT(BTNode node)
         {
@@ -143,8 +144,6 @@ namespace DS
 
             return Math.Max(HeighOfBT(node.left), HeighOfBT(node.right)) + 1;
         }
-
-
         static void BTLevelOrderTraversal(BTNode root, int height)
         {
             List<int> list = new List<int>();

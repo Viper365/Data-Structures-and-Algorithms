@@ -17,6 +17,44 @@ namespace DS
             return strOutput;
         }
 
+        public static string LongestCommonPrefix(string[] strs)
+        {
+            string prefix = String.Empty;
+
+            int minSize = int.MaxValue;
+            for (int i = 0; i < strs.Length; i++)
+            {
+                if (strs[i].Length < minSize)
+                {
+                    minSize = strs[i].Length;
+                }
+            }
+            for (int i = 0; i < minSize; i++)
+            {
+                Dictionary<char, int> valuePairs = new Dictionary<char, int>();
+
+                for (int j = 0; j < strs.Length; j++)
+                {
+                    if (valuePairs.ContainsKey(strs[j][i]))
+                    {
+                        valuePairs[strs[j][i]]++;
+                    }
+                    else
+                    {
+                        valuePairs.Add(strs[j][i], 1);
+                    }
+                }
+
+                if (valuePairs.Count > 1)
+                    break;
+                else {
+                    prefix += strs[0][i];
+                }
+            }
+            return prefix;
+        }
+
+
         public static string LongestPalindrome(this string str)
         {
             string result = string.Empty;
@@ -94,5 +132,47 @@ namespace DS
             }
             return result;
         }
+
+        public static bool IsValid(string s)
+        {
+            Stack<char> _s = new Stack<char>();
+
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (IsAOpening(s[i]))
+                {
+                    _s.Push(s[i]);
+                }
+                else
+                {
+                    char c = _s.Pop();
+                    if (IsNotAMatch(c, s[i])) { return false; }
+                }
+
+               
+            }
+            if (_s.Count == 0)
+                return true;
+            else
+                return false;
+        }
+
+        public static bool IsAOpening(char c)
+        {
+            return c == '(' ||
+                c == '{' ||
+                c == '[' ||
+                c == '<';
+        }
+
+        public static bool IsNotAMatch(char c, char v)
+        {
+            bool result = (c == '(' && v == ')') ||
+                (c == '{' && v == '}') ||
+                (c == '[' && v == ']') ||
+                (c == '<' && v == '>');
+            return !result;
+        }
+
     }
 }
